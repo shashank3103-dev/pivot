@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_bg__iphone_14_plus___2_ek2_color"
+    tools:context=".sucessfully_registrated">
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout android:id="@+id/page_login__ek1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:background="@drawable/sucessfull"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+
+
+            </ImageView>
+
+            <RelativeLayout android:id="@+id/group_56"
+                android:layout_marginTop="600dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout android:id="@+id/group_289"
+                    android:layout_marginTop="0dp"
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+                    <Button   android:id="@+id/Continue"
+                        android:background="@drawable/_bg__sign_in_button_ek1_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="380dp"
+                        android:text="Continue"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:layout_height="63dp" />
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <ImageView android:id="@+id/backButton"
+        android:src="@drawable/back_button"
+        android:contentDescription="vector"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="12dp"
+        android:layout_height="24dp" />
+
+
+    <RelativeLayout android:id="@+id/group_513164"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <ImageView android:id="@+id/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:src="@drawable/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:contentDescription="_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_width="73dp"
+            android:layout_height="101dp" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout android:id="@+id/group_513167"
+        android:layout_marginTop="305dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        <RelativeLayout android:id="@+id/group_6949"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_bg__iphone_14_plus___2_ek2_color"
+    tools:context=".MainActivity">
+    <RelativeLayout android:id="@+id/group_6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+                <ImageView android:id="@+id/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+                    android:src="@drawable/pivot_logo"
+                    android:contentDescription="_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+android:layout_centerHorizontal="true"                    android:layout_marginTop="140dp"
+                    android:layout_width="212dp"
+                    android:layout_height="295dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/frame_708"
+                    android:layout_marginTop="467dp"
+                  android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+
+                    <RelativeLayout android:id="@+id/group_33651"
+                        android:layout_marginTop="0dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+
+                        <TextView android:id="@+id/discover"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textColor="@color/discover_color"
+                            android:layout_marginLeft="107dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="92dp"
+                            android:layout_height="32.8dp"
+                            android:text="@string/discover_string"
+                            />
+
+                        <TextView android:id="@+id/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__risus_pretium"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="@color/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__risus_pretium_color"
+
+                            android:layout_marginTop="32dp"
+                            android:layout_width="310.3dp"
+                            android:layout_height="50.3dp"
+                            android:text="@string/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__risus_pretium_string"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/sign_in_button"
+                        android:layout_marginTop="102dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <Button  android:id="@+id/getstarted"
+                            android:background="@drawable/_bg__sign_in_button_ek1_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Get Started"
+                            android:textAllCaps="false"
+                            android:textStyle="bold"
+
+                            android:textColor="@color/white"
+                            android:layout_width="380dp"
+                            android:layout_height="57dp" />
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">pivot</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="discover_string">Discover</string>
+    <string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__risus_pretium_string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus pretium</string>
+    <string name="sign_in_string">Get Started</string>
+    <!--    <string name="ek_img_content">ExportKit Image</string>-->
+    <string name="sign_up_string">sign up</string>
+    <string name="or_string">or</string>
+    <string name="already_have_an_account___login_string">already have an account ?</string>
+    <string name="password_string">password</string>
+    <string name="create_password_string">create password</string>
+    <string name="email_or_phone_number_string">email or phone number</string>
+    <string name="your_email_or_phone_number_string"> your email or phone number</string>
+    <string name="full_name_string">full name</string>
+    <string name="enter_your_full_name_string">enter your full name</string>
+    <string name="time_string">9:41</string>
+    <string name="create_a_new_account_string">Create a New Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

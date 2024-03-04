@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:color="@color/_bg__sign_in_button_ek1_color"/>
+    <item
+        android:state_selected="false"
+        android:color="@color/already_have_an_account___login_color"/>
+</selector>

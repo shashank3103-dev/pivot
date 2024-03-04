@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="1321dp"
+            android:background="@color/white">
+
+
+
+            <LinearLayout
+                android:id="@+id/container_group3"
+                android:layout_width="379.98dp"
+                android:layout_height="288.06dp"
+
+                android:layout_marginTop="258.94dp"
+                android:layout_gravity="center_horizontal"
+                android:clipToPadding="false"
+                android:gravity="left|top"
+                android:orientation="vertical"
+                android:paddingTop="2.06dp">
+
+                <TextView
+                    android:id="@+id/txt_tips_and_habits"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-6.06dp"
+                    android:layout_marginBottom="-2.06dp"
+                    android:layout_gravity="left"
+                    android:gravity="left|top"
+                    android:includeFontPadding="false"
+                    android:lineHeight="36dp"
+                    android:text="3 tips and habits to stay  happy when stressed"
+                    android:textColor="#FF223263"
+                    android:textSize="24dp" />
+
+                <FrameLayout
+                    android:id="@+id/container_group11"
+                    android:layout_width="182dp"
+                    android:layout_height="19dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_gravity="left">
+
+                    <FrameLayout
+                        android:id="@+id/container_group21"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:id="@+id/img_rectangle1"
+                            android:layout_width="58dp"
+                            android:layout_height="19dp"
+                            android:background="@drawable/img_rectangle1"
+                            android:scaleType="centerInside" />
+
+                        <FrameLayout
+                            android:id="@+id/container_dusk1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="21dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp">
+
+                            <ImageView
+                                android:id="@+id/img_rectangle2"
+                                android:layout_width="33dp"
+                                android:layout_height="15dp"
+                                android:background="@drawable/img_rectangle2"
+                                android:scaleType="centerInside" />
+
+                            <TextView
+                                android:id="@+id/txt_dusk"
+                                android:layout_width="match_parent"
+                                android:layout_height="14dp"
+                                android:layout_marginLeft="2.7dp"
+                                android:layout_marginRight="3.3dp"
+                                android:layout_marginBottom="1dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:includeFontPadding="false"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="John"
+                                android:textColor="#FF2DC2B6"
+                                android:textSize="10dp" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/txt_by"
+                            android:layout_width="21dp"
+                            android:layout_height="17dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_gravity="left"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:includeFontPadding="false"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="by"
+                            android:textColor="#FF223263"
+                            android:textSize="10dp" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/txt_posted"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="69dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_gravity="top"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Posted 2/17/22 5:00 pm"
+                        android:textColor="#FF9098B1"
+                        android:textSize="10dp" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/img_rectangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_rectangle" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container_blog_text_main_content"
+                android:layout_width="355dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="565dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="20dp"
+                android:text="We all have bad days, stressful nights, time crunches, and deadlines out of our control. How we deal with inevitable stress can greatly effect our lives and mental well being. Here are 3 exercises to help you keep your stress from morphing into sadness, overwhelming fear, or unsolicted anger towards yourself or others."
+                android:textColor="#FF9098B1"
+                android:textSize="12dp" />
+
+            <FrameLayout
+                android:id="@+id/container_group2"
+                android:layout_width="252dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="1135dp"
+                android:layout_gravity="top|left">
+
+                <FrameLayout
+                    android:id="@+id/container_dusk"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_gravity="left">
+
+                    <ImageView
+                        android:id="@+id/image_rectangle"
+                        android:layout_width="48dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/image_rectangle_blog"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:id="@+id/text_john"
+                        android:layout_width="match_parent"
+                        android:layout_height="19.57dp"
+                        android:layout_marginLeft="5.38dp"
+                        android:layout_marginRight="5.39dp"
+                        android:layout_marginBottom="1.43dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="John"
+                        android:textColor="#FF2DC2B6"
+                        android:textSize="14dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/text_helpful_article"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center_horizontal|top"
+                    android:includeFontPadding="false"
+                    android:lineHeight="20dp"
+                    android:text="Hopefully you found this article helpful!\nFollow                        for more content like this!"
+                    android:textColor="#FF9098B1"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="393dp"
+                android:layout_height="188dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="717dp"
+                android:layout_gravity="top|left">
+
+                <TextView
+                    android:id="@+id/container_parent_group_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5.5dp"
+                    android:layout_marginBottom="-5.5dp"
+                    android:layout_gravity="top|left"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Give yourself a break"
+                    android:textColor="#FF223263"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/container_parent_group_text"
+                    android:layout_width="380dp"
+                    android:layout_height="158dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left|top"
+                    android:includeFontPadding="false"
+                    android:lineHeight="20dp"
+                    android:text="When we have an impending deadline upon us, it’s easy to disregard our mental health and physical well being rather because you’re so entranced in your work or don’t want to stop your flow. Try to give yourself routine breaks while working (especially if you work in front of a screen; give your eyes some rest) to ensure not only the most high quality result, but to keep your sanity in check as well. In the long run, a coupke minutes won’t hinder your work."
+                    android:textColor="#FF9098B1"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="393dp"
+                android:layout_height="181dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="937dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/container_group_text1"
+                    android:layout_width="147dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="-6.61dp"
+                    android:layout_gravity="top|left"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="2.  Stay active"
+                    android:textColor="#FF223263"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/container_group_text"
+                    android:layout_width="368dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27.26dp"
+                    android:layout_marginBottom="0dp"
+                   android:layout_gravity="center_horizontal"
+                    android:includeFontPadding="false"
+                    android:lineHeight="20dp"
+                    android:text="This one plays into the previous tip. Physical activity produces endorphins which act as natural pain killers for the body, both physically and mentally! Again, if you work at a screen, even better if you can get outside and give your eyes a rest to enjoy the outdoors and fresh air. Sitting down for too long may also lead to muscle cramps and back issues, so best to stay active even when busy! Your health should be a priority, so prioritze it like you do your work!"
+                    android:textColor="#FF9098B1"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container_group_main"
+                android:layout_width="324dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="213dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/container_group_main">
+
+                <FrameLayout
+                    android:id="@+id/container_group5"
+                    android:layout_width="63dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@drawable/container_group5">
+
+                    <ImageView
+                        android:id="@+id/image_rectangle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/_bg__sign_in_button_ek1_shape"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/text_for_you"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="For You"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_group6"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="75dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/container_group6">
+
+                    <ImageView
+                        android:id="@+id/image_rectangle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_rectangle2_chip"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/text_featured"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Featured"
+                        android:textColor="#FF9098B1"
+                        android:textSize="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_group7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="156dp"
+                    android:layout_marginRight="87dp"
+                    android:background="@drawable/container_group6">
+
+                    <ImageView
+                        android:id="@+id/image_rectangle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_rectangle2_chip"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/text_top_stories"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Top Stories"
+                        android:textColor="#FF9098B1"
+                        android:textSize="10dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/container_group8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="249dp"
+                    android:background="@drawable/container_group8">
+
+                    <ImageView
+                        android:id="@+id/image_rectangle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_rectangle2_chip"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/text_this_week"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="This Week"
+                        android:textColor="#FF9098B1"
+                        android:textSize="10dp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/container_blog_image_featured"
+                android:layout_width="46.22dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="166.89dp"
+                android:layout_marginBottom="600.5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/pivot_logo" />
+
+            <TextView
+                android:id="@+id/container_blog_text_title"
+                android:layout_width="69dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="1212dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Blogs"
+                android:textColor="#FF223263"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/container_blog_text_description"
+                android:layout_width="375dp"
+                android:layout_height="58.75dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="139.63dp"
+                android:layout_marginBottom="1122.63dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="19.36dp"
+                android:text="Blogs serve as a platform to share valuable insights, updates, and engaging content with our audience.\n"
+                android:textColor="#FF7C7C7C"
+                android:textSize="16dp" />
+
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+</ScrollView>
