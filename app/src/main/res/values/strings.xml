@@ -15,8 +15,30 @@
     <string name="your_email_or_phone_number_string"> your email or phone number</string>
     <string name="full_name_string">full name</string>
     <string name="enter_your_full_name_string">enter your full name</string>
-    <string name="time_string">9:41</string>
+    <!--    <string name="time_string">9:41</string>-->
     <string name="create_a_new_account_string">Create a New Account</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="app_name">Page 7</string>-->
+    <!--    <string name="ek_img_content">ExportKit Image</string>-->
+    <string name="time_string">9:41</string>
+    <string name="pricing_plan_string">Pricing plan</string>
+    <string name="premium_1_year_string">Premium 1 year</string>
+    <string name="payment_method_string">payment method</string>
+    <string name="debit_card_string">Debit card</string>
+    <string name="transaction_date_string">Transaction date</string>
+    <string name="_21_2_2024_string">21.2.2024</string>
+    <string name="premium_membership_1_year_string">Premium membership 1 year</string>
+    <string name="___114_7_string">$ 114,7</string>
+    <string name="tax_10__string">Tax 10%</string>
+    <string name="___10_7_string">$ 10,7</string>
+    <string name="total_string">Total</string>
+    <string name="___124_7_string">$ 124,7</string>
+    <string name="order_detail_string">Order detail</string>
+    <string name="ap___123456789011_string">AP - 123456789011</string>
+    <string name="invoice_number_string">Invoice number</string>
+    <string name="done_string">Done</string>
+
+
+
 </resources>

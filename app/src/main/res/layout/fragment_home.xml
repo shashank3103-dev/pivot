@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_marginTop="33dp"
-        android:layout_marginStart="22dp"
+
         android:layout_height="46dp">
 
     <ImageView
@@ -67,22 +67,23 @@
         android:textColor="#FF7C7C7C"
         android:textSize="16dp" />
     <FrameLayout
-        android:id="@+id/container_frame"
-        android:layout_width="182dp"
+        android:id="@+id/file_upload"
+        android:layout_width="400dp"
         android:layout_height="94dp"
         android:layout_marginLeft="215dp"
-
+        android:foreground="?android:attr/selectableItemBackground"
         android:layout_marginTop="172dp"
-        android:layout_gravity="right"
+
         android:background="@drawable/container_frame">
 
         <FrameLayout
             android:id="@+id/container_group"
-            android:layout_width="113dp"
+            android:layout_width="wrap_content"
             android:layout_height="71dp"
             android:layout_marginBottom="11dp"
+            android:layout_marginLeft="16dp"
             android:layout_gravity="bottom"
-            android:layout_marginStart="5dp"
+
             android:background="@drawable/container_group">
 
             <ImageView
@@ -96,13 +97,13 @@
             <TextView
                 android:id="@+id/text_choose_gallery"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_marginTop="36dp"
+                android:layout_height="43dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
                 android:gravity="left|center_vertical"
                 android:includeFontPadding="false"
-                android:maxLines="1"
-                android:singleLine="true"
+
+
                 android:text="Choose from Gallery"
                 android:textColor="#FFFFFFFF"
                 android:textSize="18dp" />
@@ -120,12 +121,13 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/container_group4"
-        android:layout_width="182dp"
+        android:id="@+id/take_pic"
+        android:layout_width="wrap_content"
         android:layout_height="94dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="172dp"
-        android:layout_gravity="top">
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_gravity="top|left">
 
         <ImageView
             android:id="@+id/image_frame2"
@@ -142,15 +144,7 @@
             android:layout_marginBottom="10dp"
             android:layout_gravity="bottom|left">
 
-            <ImageView
-                android:id="@+id/image_vector3"
-                android:layout_width="17.5dp"
-                android:layout_height="13.54dp"
-                android:layout_marginLeft="132dp"
-                android:layout_marginTop="27dp"
-                android:layout_marginBottom="30.46dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/image_vector3" />
+
 
             <TextView
                 android:id="@+id/text_take_new_photo"
@@ -176,11 +170,23 @@
                 android:src="@drawable/image_frame3" />
 
         </FrameLayout>
+        <ImageView
+            android:id="@+id/image_vector3"
+            android:layout_width="17.5dp"
+            android:layout_height="13.54dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginRight="13.5dp"
+
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="30.46dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_vector3" />
     </FrameLayout>
     <FrameLayout
         android:id="@+id/container_frame1"
         android:layout_width="380dp"
         android:layout_height="364dp"
+
         android:layout_marginTop="290dp"
        android:layout_centerHorizontal="true"
 
@@ -215,7 +221,7 @@
             android:layout_marginTop="44dp"
             android:layout_gravity="top|left"
             android:scaleType="centerInside"
-            android:src="@drawable/image_rectangle2" />
+            android:src="@drawable/image_rectangle3" />
         <ImageView
             android:id="@+id/image_rectangle4"
             android:layout_width="100dp"
@@ -230,25 +236,44 @@
             android:id="@+id/image_rectangle9"
             android:layout_width="100dp"
             android:layout_height="103.57dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="270dp"
             android:layout_marginTop="160dp"
-            android:layout_gravity="top|right"
+            android:layout_gravity="top|left"
             android:scaleType="centerInside"
             android:src="@drawable/image_rectangle1" />
         <ImageView
             android:id="@+id/image_rectangle0"
             android:layout_width="100dp"
             android:layout_height="103.57dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="150dp"
             android:layout_marginTop="160dp"
-            android:layout_gravity="top|center"
+            android:layout_gravity="top|left"
             android:scaleType="centerInside"
             android:src="@drawable/image_rectangle1" />
+        <TextView
+            android:id="@+id/text_see_all"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="13.5dp"
+            android:layout_marginBottom="329.5dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="See all"
+            android:textColor="#FF2DC2B6"
+            android:textSize="16dp" />
 
         <Button
             android:layout_width="match_parent"
+
             android:layout_gravity="bottom"
-            android:background="@drawable/"
+            android:text="Make Analyasis"
+            android:textAllCaps="false"
+            android:textColor="@color/already_have_an_account___login_color"
+            android:background="@drawable/img_rectangle_credit"
             android:layout_height="wrap_content">
 
         </Button>

@@ -8,22 +8,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
+    tools:context=".fragment.AccountFragment"
     android:background="@drawable/container_profile">
 
     <TextView
         android:id="@+id/text_profile"
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="828dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="2dp"
         android:gravity="center"
         android:maxLines="1"
         android:singleLine="true"
         android:text="Profile"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="16dp" />
+        android:textSize="25dp" />
 
     <FrameLayout
         android:id="@+id/container_my_details"
@@ -70,7 +71,7 @@
         android:layout_width="380dp"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         >
 
         <FrameLayout
@@ -142,8 +143,8 @@
         android:id="@+id/image_ellipse"
         android:layout_width="49dp"
         android:layout_height="49dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
         android:layout_gravity="top|left"
         android:scaleType="centerInside"
         android:src="@drawable/image_ellipse" />
@@ -152,7 +153,8 @@
         android:id="@+id/container_group8"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="180dp"
+
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="9dp">
 
@@ -458,4 +460,5 @@
             </FrameLayout>
         </LinearLayout>
     </FrameLayout>
+
 </FrameLayout>
