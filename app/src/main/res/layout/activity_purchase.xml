@@ -493,7 +493,7 @@
 
         <LinearLayout
             android:id="@+id/container_group41"
-            android:layout_width="428dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:gravity="left|top"
@@ -524,8 +524,8 @@
                     android:id="@+id/container_payment_group"
                     android:layout_width="343dp"
                     android:layout_height="179dp"
-                    android:layout_gravity="bottom|right"
-                    android:layout_marginRight="42dp"
+                    android:layout_gravity="center_horizontal"
+
                     android:layout_marginBottom="21dp"
                     android:background="@drawable/container_payment_group"
                     android:gravity="left|top"
@@ -536,7 +536,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="-5dp"
+                        android:layout_marginTop="0dp"
                         android:clipToPadding="false"
                         android:gravity="left|top"
                         android:orientation="vertical"
@@ -545,9 +545,9 @@
                         <TextView
                             android:id="@+id/text_payment_detail"
                             android:layout_width="wrap_content"
-                            android:layout_height="21dp"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginTop="-5dp"
+                            android:layout_marginTop="0dp"
                             android:layout_marginRight="110dp"
                             android:layout_marginBottom="-5dp"
                             android:gravity="center_horizontal|center_vertical"
@@ -585,9 +585,9 @@
                                         android:id="@+id/text_membership"
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
-                                        android:layout_gravity="center_horizontal"
+
                                         android:layout_marginTop="-4dp"
-                                        android:layout_marginRight="141.5dp"
+
                                         android:layout_marginBottom="-4dp"
                                         android:gravity="center_horizontal|center_vertical"
                                         android:includeFontPadding="false"
@@ -599,7 +599,7 @@
 
                                     <TextView
                                         android:id="@+id/text_membership_amount"
-                                        android:layout_width="match_parent"
+                                        android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_gravity="center_horizontal"
                                         android:layout_marginLeft="149.5dp"
@@ -640,7 +640,7 @@
 
                                     <TextView
                                         android:id="@+id/text_tax_amount"
-                                        android:layout_width="match_parent"
+                                        android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_gravity="center_horizontal"
                                         android:layout_marginLeft="149.5dp"
@@ -682,7 +682,7 @@
 
                                 <TextView
                                     android:id="@+id/text_total_amount"
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="21dp"
                                     android:layout_gravity="center_horizontal"
                                     android:layout_marginLeft="143dp"
@@ -703,7 +703,7 @@
                         android:id="@+id/container_purchase_group"
                         android:layout_width="match_parent"
                         android:layout_height="41dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginTop="12dp"
                         android:background="@drawable/container_purchase_group">
 
                         <Button

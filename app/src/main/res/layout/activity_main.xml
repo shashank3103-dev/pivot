@@ -12,13 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-
-
-
                 <ImageView android:id="@+id/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
                     android:src="@drawable/pivot_logo"
                     android:contentDescription="_1b92d09c_27d2_4a66_941b_5af93115c383_1"
-android:layout_centerHorizontal="true"                    android:layout_marginTop="140dp"
+                    android:layout_centerHorizontal="true"                    android:layout_marginTop="140dp"
                     android:layout_width="212dp"
                     android:layout_height="295dp" />
 

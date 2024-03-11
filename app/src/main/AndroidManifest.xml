@@ -21,7 +21,7 @@
             android:name=".done"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Homepage"
             android:exported="false" />
         <activity
             android:name=".sucessfully_registrated"
@@ -42,7 +42,7 @@
             android:name=".sign_up"
             android:exported="false" />
         <activity
-            android:name=".Homepage"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
