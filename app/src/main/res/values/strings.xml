@@ -39,6 +39,33 @@
     <string name="invoice_number_string">Invoice number</string>
     <string name="done_string">Done</string>
 
+    <!--    <string name="ek_img_content">ExportKit Image</string>-->
+    <!--    <string name="time_string">9:41</string>-->
+    <string name="reports_string">Reports</string>
+    <string name="emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__string">Emotion analysis deciphers facial expressions to understand underlying feelings.</string>
+    <string name="detected_emotions_string">Detected Emotions</string>
+    <string name="smiling_string">Smiling </string>
+    <string name="happiness_and_warmth__bridging_connections_and_brightening_read_more_string">happiness and warmth, bridging connections and brightening Read more</string>
+    <string name="neutral_string">Neutral</string>
+    <string name="often_characterized_by_a_lack_of_strong_emotional_expression_or_read_more_string">often characterized by a lack of strong emotional expression or Read more</string>
+    <string name="fear_string">Fear</string>
+    <string name="microexpressions_that_reveal_subconscious_emotions_read_more_string">microexpressions that reveal subconscious emotions Read more</string>
+    <string name="sad_string">Sad </string>
+    <string name="facial_expressions_such_as_downturned_corners_of_the_mouth_and_read_more_string">facial expressions such as downturned corners of the mouth and Read more</string>
+    <string name="anger_string">Anger </string>
+    <string name="an_intense_emotional_response_often_triggered_by_perceived_read_more_string">An intense emotional response often triggered by perceived Read more</string>
+    <string name="increase_your_emotional_awareness_start_training_now_string">Increase your emotional awareness start training now</string>
 
+    <string name="analysis_string">Analysis </string>
+
+    //fading text
+
+    <string-array name="fading">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Neutral</item>
+        <item>Anger</item>
+        <item>Fear</item>
+    </string-array>
 
 </resources>

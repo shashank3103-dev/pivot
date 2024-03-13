@@ -26,4 +26,15 @@
     <color name="already_have_an_account___login_color">#7C7C7C</color>
     <color name="border_color">#ffffff</color>
     <color name="create_a_new_account_color">#223263</color>
+
+
+
+    <color name="_bg__iphone_14_plus___10_ek2_color">#FCFCFC</color>
+    <color name="_bg__bars___status_bar___iphone___light_ek1_color">#000000</color>
+
+    <color name="capacity_color">#585A70</color>
+    <color name="reports_color">#223263</color>
+    <color name="emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color">#7C7C7C</color>
+    <color name="increase_your_emotional_awareness_start_training_now_color">#FFFFFF</color>
+
 </resources>

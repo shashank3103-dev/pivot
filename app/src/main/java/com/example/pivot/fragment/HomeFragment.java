@@ -9,15 +9,21 @@ import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.example.pivot.R;
+import com.example.pivot.analyasis;
+import com.example.pivot.reports;
+import com.example.pivot.sucessfully_registrated;
 
 
 public class HomeFragment extends Fragment {
 
     View myfragment;
     FrameLayout file_upload,take_pic;
+    Button makeAnalaysis;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,6 +32,16 @@ public class HomeFragment extends Fragment {
         myfragment= inflater.inflate(R.layout.fragment_home, container, false);
        file_upload = myfragment.findViewById(R.id.file_upload);
         take_pic=myfragment.findViewById(R.id.take_pic);
+
+        makeAnalaysis = myfragment.findViewById(R.id.makeAnalaysis);
+
+        makeAnalaysis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent makeAnalysis = new Intent(getContext(), analyasis.class);
+                startActivity(makeAnalysis);
+            }
+        });
 
         take_pic.setOnClickListener(new View.OnClickListener() {
             @Override

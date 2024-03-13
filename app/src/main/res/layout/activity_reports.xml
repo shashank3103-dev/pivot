@@ -1,0 +1,482 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="wrap_content" >
+
+
+
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout android:id="@+id/bars___status_bar___iphone___light"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </RelativeLayout>
+
+        <ImageView android:id="@+id/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:src="@drawable/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:contentDescription="_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="46.22dp"
+            android:layout_height="64dp" />
+
+        <TextView android:id="@+id/reports"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textColor="@color/reports_color"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="@string/reports_string"
+            />
+
+        <TextView android:id="@+id/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings_"
+            android:textSize="16sp"
+            android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="125dp"
+            android:layout_width="389.6dp"
+            android:layout_height="wrap_content"
+            android:text="@string/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__string"
+            />
+
+
+        <RelativeLayout android:id="@+id/u_home_alt"
+            android:layout_marginTop="810dp"
+            android:layout_marginStart="59dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/u_search"
+            android:layout_marginTop="810dp"
+            android:layout_marginStart="119dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/frame_710"
+            android:layout_marginTop="199dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+            <TextView android:id="@+id/detected_emotions"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/reports_color"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detected_emotions_string"
+                />
+
+
+            <RelativeLayout android:id="@+id/frame_713"
+                android:layout_marginTop="39dp"
+                android:layout_marginStart="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__frame_713_ek1"
+                    android:background="@drawable/border_shape"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_width="181dp"
+                    android:layout_height="279dp" />
+
+                <ImageView android:id="@+id/rectangle_22786"
+                    android:src="@drawable/rectangle_22786"
+                    android:contentDescription="rectangle_22786"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="181dp"
+                    android:layout_height="169.36dp" />
+
+
+                <RelativeLayout android:id="@+id/group_513197"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+                    <ImageView android:id="@+id/ellipse_651"
+                        android:src="@drawable/ellipse_651"
+                        android:contentDescription="ellipse_651"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView android:id="@+id/smiling"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/reports_color"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="76.6dp"
+                        android:layout_height="28.6dp"
+                        android:text="@string/smiling_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/happiness_and_warmth__bridging_connections_and_brightening_read_more"
+                    android:textSize="13sp"
+                    android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="174.3dp"
+                    android:layout_height="48.3dp"
+                    android:text="@string/happiness_and_warmth__bridging_connections_and_brightening_read_more_string"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/frame_715"
+                android:layout_marginTop="336dp"
+                android:layout_marginStart="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__frame_715_ek1"
+                    android:background="@drawable/border_shape"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_width="181dp"
+                    android:layout_height="279dp" />
+
+                <ImageView android:id="@+id/rectangle_22786_ek1"
+                    android:src="@drawable/rectangle_22786_ek1"
+                    android:contentDescription="rectangle_22786_ek1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="181dp"
+                    android:layout_height="169.36dp" />
+
+
+                <RelativeLayout android:id="@+id/group_513197_ek2"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/_bg__group_513197_ek3"
+                        android:background="@drawable/_bg__group_513197_ek3_shape"
+                        android:layout_marginStart="-12dp"
+                        android:layout_marginTop="-182dp"
+                        android:layout_width="97dp"
+                        android:layout_height="24dp" />
+
+                    <ImageView android:id="@+id/ellipse_651_ek1"
+                        android:src="@drawable/ellipse_651_ek1"
+                        android:contentDescription="ellipse_651_ek1"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView android:id="@+id/neutral"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/reports_color"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="75.6dp"
+                        android:layout_height="28.6dp"
+                        android:text="@string/neutral_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/often_characterized_by_a_lack_of_strong_emotional_expression_or_read_more"
+                    android:textSize="13sp"
+                    android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="174.3dp"
+                    android:layout_height="48.3dp"
+                    android:text="@string/often_characterized_by_a_lack_of_strong_emotional_expression_or_read_more_string"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/frame_717"
+                android:layout_marginTop="631dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/border_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+
+                <ImageView android:id="@+id/rectangle_22786_ek2"
+                    android:src="@drawable/rectangle_22786_ek2"
+                    android:contentDescription="rectangle_22786_ek2"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="181dp"
+                    android:layout_height="169.36dp" />
+
+
+                <RelativeLayout android:id="@+id/group_513197_ek4"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/_bg__group_513197_ek5"
+                        android:background="@drawable/_bg__group_513197_ek5_shape"
+                        android:layout_marginStart="-12dp"
+                        android:layout_marginTop="-182dp"
+                        android:layout_width="72dp"
+                        android:layout_height="24dp" />
+
+                    <ImageView android:id="@+id/ellipse_651_ek2"
+                        android:src="@drawable/ellipse_651_ek2"
+                        android:contentDescription="ellipse_651_ek2"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView android:id="@+id/fear"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/reports_color"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="50.6dp"
+                        android:layout_height="28.6dp"
+                        android:text="@string/fear_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/microexpressions_that_reveal_subconscious_emotions_read_more"
+                    android:textSize="13sp"
+                    android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="156.3dp"
+                    android:layout_height="51.3dp"
+                    android:text="@string/microexpressions_that_reveal_subconscious_emotions_read_more_string"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/frame_714"
+                android:layout_marginTop="37dp"
+                android:layout_marginStart="223dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__frame_714_ek1"
+                    android:background="@drawable/border_shape"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_width="181dp"
+                    android:layout_height="279dp" />
+
+                <ImageView android:id="@+id/rectangle_22786_ek3"
+                    android:src="@drawable/rectangle_22786_ek3"
+                    android:contentDescription="rectangle_22786_ek3"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="181dp"
+                    android:layout_height="169.36dp" />
+
+
+                <RelativeLayout android:id="@+id/group_513197_ek6"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+                    <ImageView android:id="@+id/ellipse_651_ek3"
+                        android:src="@drawable/ellipse_651_ek3"
+                        android:contentDescription="ellipse_651_ek3"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView android:id="@+id/sad"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/reports_color"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="46.6dp"
+                        android:layout_height="28.6dp"
+                        android:text="@string/sad_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/facial_expressions_such_as_downturned_corners_of_the_mouth_and_read_more"
+                    android:textSize="13sp"
+                    android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="174.3dp"
+                    android:layout_height="48.3dp"
+                    android:text="@string/facial_expressions_such_as_downturned_corners_of_the_mouth_and_read_more_string"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/frame_716"
+                android:layout_marginTop="334dp"
+                android:layout_marginStart="223dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__frame_716_ek1"
+                    android:background="@drawable/border_shape"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_width="181dp"
+                    android:layout_height="279dp" />
+
+                <ImageView android:id="@+id/rectangle_22786_ek4"
+                    android:src="@drawable/rectangle_22786_ek4"
+                    android:contentDescription="rectangle_22786_ek4"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="181dp"
+                    android:layout_height="169.36dp" />
+
+
+                <RelativeLayout android:id="@+id/group_513197_ek8"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/_bg__group_513197_ek9"
+                        android:background="@drawable/_bg__group_513197_ek9_shape"
+                        android:layout_marginStart="-12dp"
+                        android:layout_marginTop="-182dp"
+                        android:layout_width="86dp"
+                        android:layout_height="24dp" />
+
+                    <ImageView android:id="@+id/ellipse_651_ek4"
+                        android:src="@drawable/ellipse_651_ek4"
+                        android:contentDescription="ellipse_651_ek4"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView android:id="@+id/anger"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/reports_color"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="64.6dp"
+                        android:layout_height="28.6dp"
+                        android:text="@string/anger_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/an_intense_emotional_response_often_triggered_by_perceived_read_more"
+                    android:textSize="13sp"
+                    android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="174.3dp"
+                    android:layout_height="48.3dp"
+                    android:text="@string/an_intense_emotional_response_often_triggered_by_perceived_read_more_string"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/group_513198"
+                android:layout_marginTop="938dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/rectangle_22793"
+                    android:background="@drawable/rectangle_22793_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="428dp"
+                    android:layout_height="86dp" />
+
+                <TextView android:id="@+id/increase_your_emotional_awareness_start_training_now"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/increase_your_emotional_awareness_start_training_now_color"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="336dp"
+                    android:layout_height="60dp"
+                    android:text="@string/increase_your_emotional_awareness_start_training_now_string"
+                    />
+
+                <ImageView android:id="@+id/vector"
+                    android:src="@drawable/vector"
+                    android:contentDescription="vector"
+                    android:layout_marginStart="355dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="24dp"
+                    android:layout_height="18.57dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".analyasis">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+        android:src="@drawable/_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+        android:contentDescription="_1b92d09c_27d2_4a66_941b_5af93115c383_1"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="62dp"
+        android:layout_width="46.22dp"
+        android:layout_height="64dp" />
+
+    <TextView android:id="@+id/analysis"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/discover_color"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="85dp"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="@string/analysis_string"
+        />
+
+    <TextView android:id="@+id/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings_"
+        android:textSize="16sp"
+        android:textColor="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="141dp"
+        android:layout_width="389.6dp"
+        android:layout_height="38.6dp"
+        android:text="@string/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__string"
+        />
+
+    <RelativeLayout android:id="@+id/group_513174"
+        android:layout_marginTop="203dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView android:id="@+id/rectangle_22792"
+            android:src="@drawable/rectangle_22792"
+            android:contentDescription="rectangle_22792"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+<ProgressBar
+    android:layout_width="match_parent"
+   android:layout_centerVertical="true"
+    android:layout_height="wrap_content">
+
+</ProgressBar>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>
