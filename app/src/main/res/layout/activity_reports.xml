@@ -450,6 +450,7 @@
                     android:background="@drawable/rectangle_22793_shape"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
+
                     android:layout_width="428dp"
                     android:layout_height="86dp" />
 
