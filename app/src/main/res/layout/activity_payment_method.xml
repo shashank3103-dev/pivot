@@ -54,257 +54,17 @@ android:layout_marginTop="90dp"
             android:textStyle="bold"
             android:textColor="#FF333333"
             android:textSize="16dp" />
-
         <LinearLayout
             android:id="@+id/container_group1"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
-            android:layout_marginBottom="497dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="333dp"
+            android:layout_marginBottom="497dp"
 
             android:gravity="left|top"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/dhj"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="304dp"
-                android:gravity="left|center_vertical"
-                android:includeFontPadding="false"
-
-                android:text="Holder Name"
-                android:maxLines="1"
-                android:textColor="#FF333333"
-                android:textSize="16dp" />
-
-            <EditText
-                android:id="@+id/image_rectangle"
-                android:layout_width="match_parent"
-                android:layout_height="96dp"
-                android:background="@drawable/_bg__iphone_14_plus___10_ek2_shape"
-                android:hint="Salman Karim"
-                android:scaleType="centerCrop"
-                android:textColorHint="@color/emotion_analysis_deciphers_facial_expressions_to_understand_underlying_feelings__color" />
-
-            <FrameLayout
-                android:id="@+id/container_group2"
-                android:layout_width="wrap_content"
-                android:layout_height="56dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/_bg__iphone_14_plus___10_ek2_shape" />
-
-            <FrameLayout
-                android:id="@+id/container_group6"
-                android:layout_width="match_parent"
-                android:layout_height="204.24dp"
-                android:layout_marginBottom="148.76dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="573dp"
-                android:background="@drawable/container_group6">
-
-                <FrameLayout
-                    android:id="@+id/container_group7"
-                    android:layout_width="match_parent"
-                    android:layout_height="18.64dp"
-                    android:layout_marginBottom="126.28dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="59.32dp">
-
-                    <TextView
-                        android:id="@+id/text_order"
-                        android:layout_width="match_parent"
-                        android:layout_height="23dp"
-                        android:layout_marginBottom="-2.18dp"
-                        android:layout_marginRight="282dp"
-                        android:layout_marginTop="-2.18dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="order"
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:id="@+id/text_order_price"
-                        android:layout_width="match_parent"
-                        android:layout_height="21dp"
-                        android:layout_marginBottom="-1.6dp"
-                        android:layout_marginLeft="276dp"
-                        android:layout_marginTop="-0.76dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="$70.00"
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="16dp" />
-                </FrameLayout>
-
-                <FrameLayout
-                    android:id="@+id/container_group8"
-                    android:layout_width="match_parent"
-                    android:layout_height="18.64dp"
-                    android:layout_marginBottom="94.07dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="21dp"
-                    android:layout_marginTop="91.53dp">
-
-                    <TextView
-                        android:id="@+id/text_delivery"
-                        android:layout_width="match_parent"
-                        android:layout_height="23dp"
-                        android:layout_marginBottom="-2.18dp"
-                        android:layout_marginRight="264dp"
-                        android:layout_marginTop="-2.18dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="delivery "
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:id="@+id/text_delivery_price"
-                        android:layout_width="match_parent"
-                        android:layout_height="21dp"
-                        android:layout_marginBottom="-1.33dp"
-                        android:layout_marginLeft="279dp"
-                        android:layout_marginTop="-1.03dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="$20.00"
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="16dp" />
-                </FrameLayout>
-
-                <FrameLayout
-                    android:id="@+id/container_group9"
-                    android:layout_width="match_parent"
-                    android:layout_height="18.64dp"
-                    android:layout_marginBottom="61.87dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="123.73dp">
-
-                    <TextView
-                        android:id="@+id/text_discount"
-                        android:layout_width="match_parent"
-                        android:layout_height="23dp"
-                        android:layout_marginBottom="-2.18dp"
-                        android:layout_marginRight="255dp"
-                        android:layout_marginTop="-2.18dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="discount"
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:id="@+id/text_discount_price"
-                        android:layout_width="match_parent"
-                        android:layout_height="21dp"
-                        android:layout_marginBottom="-1.6dp"
-                        android:layout_marginLeft="287dp"
-                        android:layout_marginTop="-0.75dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="$5.00"
-                        android:textColor="#FF7C7C7C"
-                        android:textSize="16dp" />
-                </FrameLayout>
-
-                <FrameLayout
-                    android:id="@+id/container_group10"
-                    android:layout_width="match_parent"
-                    android:layout_height="18.64dp"
-                    android:layout_marginBottom="29.66dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="155.94dp">
-
-                    <TextView
-                        android:id="@+id/text_total"
-                        android:layout_width="match_parent"
-                        android:layout_height="23dp"
-                        android:layout_marginBottom="-2.18dp"
-                        android:layout_marginRight="289dp"
-                        android:layout_marginTop="-2.18dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="total "
-                        android:textColor="#FF1F2B49"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:id="@+id/text_total_price"
-                        android:layout_width="match_parent"
-                        android:layout_height="21dp"
-                        android:layout_marginBottom="-1.6dp"
-                        android:layout_marginLeft="276dp"
-                        android:layout_marginTop="-0.76dp"
-                        android:gravity="left|center_vertical"
-                        android:includeFontPadding="false"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:text="$85.00"
-                        android:textColor="#FF1F2B49"
-                        android:textSize="16dp" />
-                </FrameLayout>
-
-                <ImageView
-                    android:id="@+id/image_rectangle3"
-                    android:layout_width="match_parent"
-                    android:layout_height="204.24dp"
-                    android:background="@drawable/image_rectangle3"
-                    android:scaleType="centerCrop" />
-
-                <TextView
-                    android:id="@+id/text_total_amount"
-                    android:layout_width="match_parent"
-                    android:layout_height="23dp"
-                    android:layout_marginBottom="163.08dp"
-                    android:layout_marginLeft="131dp"
-                    android:layout_marginRight="130dp"
-                    android:layout_marginTop="18.16dp"
-                    android:gravity="left|center_vertical"
-                    android:includeFontPadding="false"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:text="total amount"
-                    android:textColor="#FF1F2B49"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/text_empty"
-                    android:layout_width="match_parent"
-                    android:layout_height="21dp"
-                    android:layout_marginBottom="175.57dp"
-                    android:layout_marginLeft="48.21dp"
-                    android:layout_marginRight="331.79dp"
-                    android:layout_marginTop="7.68dp"
-                    android:gravity="left|center_vertical"
-                    android:includeFontPadding="false"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:text=" "
-                    android:textColor="#FF999999"
-                    android:textSize="16dp" />
-
-            </FrameLayout>
 
             <TextView
                 android:id="@+id/text_holder_name"
@@ -319,7 +79,22 @@ android:layout_marginTop="90dp"
                 android:text="holder name"
                 android:textColor="#FF333333"
                 android:textSize="16dp" />
+
+
+
+                <EditText
+                    android:id="@+id/image_rectangle"
+                    android:hint="salim"
+                    android:textColorHint="@color/already_have_an_account___login_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/_bg__iphone_14_plus___10_ek2_shape"
+                    android:scaleType="centerCrop" />
+
+
+
         </LinearLayout>
+
 
 
         <LinearLayout
@@ -328,7 +103,7 @@ android:layout_marginTop="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="445dp"
+            android:layout_marginTop="420dp"
             android:layout_marginBottom="377dp"
             android:gravity="left|top"
             android:orientation="vertical">
@@ -345,25 +120,220 @@ android:layout_marginTop="90dp"
                 android:textColor="#FF333333"
                 android:textSize="16dp" />
 
-            <FrameLayout
-                android:id="@+id/container_group5"
-                android:layout_width="388dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+
 
                 <EditText
-                    android:id="@+id/image_rectangle2"
+
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="wrap_content"
                     android:hint="222 22  2222 5546"
+                    android:textSize="22dp"
                     android:textColorHint="@color/already_have_an_account___login_color"
                     android:background="@drawable/_bg__iphone_14_plus___10_ek2_shape"
                     android:scaleType="centerCrop" />
 
 
 
-            </FrameLayout>
+
+
         </LinearLayout>
+        <FrameLayout
+            android:id="@+id/container_group6"
+            android:layout_width="match_parent"
+            android:layout_height="204.24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginBottom="148.76dp"
+            android:background="@drawable/container_group6">
+            <TextView
+                android:id="@+id/text_total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginLeft="131dp"
+                android:layout_marginRight="130dp"
+                android:layout_marginTop="18.16dp"
+                android:layout_marginBottom="163.08dp"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="total amount"
+                android:textColor="#FF1F2B49"
+                android:textSize="18dp" />
+            <FrameLayout
+                android:id="@+id/container_group7"
+                android:layout_width="match_parent"
+                android:layout_height="18.64dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="59.32dp"
+                android:layout_marginBottom="126.28dp">
+
+                <TextView
+                    android:id="@+id/text_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+
+                    android:layout_marginTop="-2.18dp"
+                    android:layout_marginBottom="-2.18dp"
+
+                    android:includeFontPadding="false"
+
+                    android:text="order"
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_order_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="-0.76dp"
+                    android:layout_marginBottom="-1.6dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="$70.00"
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="16dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/container_group8"
+                android:layout_width="match_parent"
+                android:layout_height="18.64dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="91.53dp"
+                android:layout_marginBottom="94.07dp">
+
+                <TextView
+                    android:id="@+id/text_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_marginRight="264dp"
+                    android:layout_marginTop="-2.18dp"
+                    android:layout_marginBottom="-2.18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="delivery "
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_delivery_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="-1.03dp"
+                    android:layout_marginBottom="-1.33dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="$20.00"
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="16dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/container_group9"
+                android:layout_width="match_parent"
+                android:layout_height="18.64dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="123.73dp"
+                android:layout_marginBottom="61.87dp">
+
+                <TextView
+                    android:id="@+id/text_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+
+                    android:layout_marginTop="-2.18dp"
+                    android:layout_marginBottom="-2.18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="discount"
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_discount_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="-0.75dp"
+                    android:layout_marginBottom="-1.6dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="$5.00"
+                    android:textColor="#FF7C7C7C"
+                    android:textSize="16dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/container_group10"
+                android:layout_width="match_parent"
+                android:layout_height="18.64dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="155.94dp"
+                android:layout_marginBottom="29.66dp">
+
+                <TextView
+                    android:id="@+id/text_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+
+                    android:layout_marginTop="-2.18dp"
+                    android:layout_marginBottom="-2.18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="total "
+                    android:textColor="#FF1F2B49"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_total_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_marginTop="-0.76dp"
+                    android:layout_marginBottom="-1.6dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+
+                    android:text="$85.00"
+                    android:textColor="#FF1F2B49"
+                    android:textSize="16dp" />
+            </FrameLayout>
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/container_group5"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/container_group5">
+
+            <Button
+                android:id="@+id/payNow"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Pay Now"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/_bg__sign_in_button_ek1_shape"
+                android:scaleType="centerCrop" />
+
+
+        </FrameLayout>
 
     </RelativeLayout>
 
