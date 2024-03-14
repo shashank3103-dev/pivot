@@ -26,7 +26,7 @@ public class purchase extends AppCompatActivity {
         image_purchase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent  i = new Intent(purchase.this,done.class);
+                Intent  i = new Intent(purchase.this,invoice.class);
                 startActivity(i);
             }
         });

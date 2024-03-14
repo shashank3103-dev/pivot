@@ -16,6 +16,9 @@
             android:name=".paymentMethod"
             android:exported="false" />
         <activity
+            android:name=".invoice"
+            android:exported="false" />
+        <activity
             android:name=".musicPlayer"
             android:exported="false" />
         <activity

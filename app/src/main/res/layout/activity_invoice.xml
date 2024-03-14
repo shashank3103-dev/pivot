@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_bg__iphone_14_plus___2_ek2_color"
+    tools:context=".invoice">
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout android:id="@+id/page_login__ek1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:background="@drawable/sucessfull"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/image"
+               android:layout_marginTop="100dp"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+
+            <RelativeLayout android:id="@+id/group_56"
+                android:layout_marginTop="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout android:id="@+id/group_289"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/border_shape"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Order detail"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:id="@+id/textOrder"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Pricing Plan"
+                        android:layout_below="@+id/textOrder"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginStart="10dp"
+
+                        android:textSize="15dp"
+                        android:id="@+id/textOrder2"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Premium 1 year"
+                        android:layout_below="@+id/textOrder"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginStart="300dp"
+
+                        android:textSize="15dp"
+                        android:id="@+id/premium"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Payment method"
+                        android:layout_below="@+id/textOrder2"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+
+                        android:id="@+id/textorder3"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Debit Card"
+                        android:layout_below="@+id/textOrder2"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="330dp"
+
+                        android:id="@+id/debitCard"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Transaction method"
+                        android:id="@+id/transaction"
+                        android:layout_below="@+id/textorder3"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="21.2.2024"
+                        android:id="@+id/transaction_method"
+                        android:layout_below="@+id/textorder3"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="330dp"
+
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Premium membership 1 year"
+                        android:layout_below="@+id/transaction"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/text4"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$ 114,7"
+                        android:layout_below="@+id/transaction"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="350dp"
+                        android:id="@+id/membership"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Tex 10%"
+                        android:layout_below="@+id/text4"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/text5"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$ 10,7"
+                        android:layout_below="@+id/text4"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="350dp"
+                        android:id="@+id/tax"
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Total"
+                        android:layout_below="@+id/text5"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$ 124,7"
+                        android:layout_below="@+id/text5"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                      android:layout_marginStart="350dp"
+
+                        android:textSize="15dp"
+
+                        android:layout_height="wrap_content"/>
+
+                    <Button   android:id="@+id/Continue"
+                        android:background="@drawable/_bg__sign_in_button_ek1_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_centerHorizontal="true"
+                       android:layout_marginTop="300dp"
+                        android:layout_width="380dp"
+                        android:text="Continue"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:layout_height="63dp" />
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout android:id="@+id/group_513164"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout android:id="@+id/group_513167"
+        android:layout_marginTop="305dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        <RelativeLayout android:id="@+id/group_6949"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
